@@ -1,0 +1,50 @@
+h3
+{
+  font-size: 25px !important;
+}
+
+.btn-info:hover
+{
+    background-color:blue ;
+}
+
+.btn-success:hover
+{
+    background-color: lightgreen;
+}
+
+canvas
+{
+    animation-name: glowing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glowing
+{
+   from{box-shadow: 1px 1px 38px purple;};
+   to{box-shadow: 1px 1px 38px blue;};
+}
+
+
+h3 ,h1 , button
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+p
+{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input
+{
+    border-radius: 10px;
+}
